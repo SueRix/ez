@@ -1,0 +1,11 @@
+1)Create genetic end-point which accepts get post put patch delete messages;
+2)If URL exists in predifined allowed resourse config create appropriate HTTP request on second server;
+3)Return recived response;
+
+4)Implement authentication check based on GWT token, if no token header redirect on login page
+5)Create simple loging page with sign-up and sign-in
+6)If token expired return forbidden status
+
+Must read:
+Existing HTTP messages, exiting HTTP status codes, difference between user authorisation and authentication.
+Postman end CURL(this touse required for creating HTTP request.
